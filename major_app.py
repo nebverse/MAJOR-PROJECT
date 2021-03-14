@@ -4,7 +4,7 @@ import numpy as np
 from PIL import Image
 import cv2
 import os
-from keras.models import model_from_json
+from tensorflow.keras.models import model_from_json
 
 os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
 
